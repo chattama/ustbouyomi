@@ -1,0 +1,18 @@
+{
+    "content_scripts": [
+        "jquery-1.9.1.min.js", 
+        "content.js"
+    ], 
+    "name": "Ustream Bouyomi", 
+    "creator": "chattama", 
+    "framework_version": "1.7.6 e5b39c50d196", 
+    "background_scripts": [
+        "background.js"
+    ], 
+    "homepage_url": "https://github.com/chattama/", 
+    "version": "0.0.1", 
+    "options_page": "options.html", 
+    "framework_package_id": "dev", 
+    "id": "{D3EC6E41-3CC5-4A84-9D58-1A274EF192B4}", 
+    "description": "Ustream Bouyomi"
+}

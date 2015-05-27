@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "name": "Ustream Bouyomi",
+  "description": "Ustream Bouyomi",
+  "content_scripts": [
+    "jquery-1.9.1.min.js",
+    "content.js"
+  ],
+  "background_scripts": [
+    "background.js"
+  ],
+  "options_page": "options.html",
+  "permissions": {
+    "content_scripts": ["http://*.ustream.tv/channel/*"]
+  },
+  "creator": "chattama",
+  "homepage_url": "https://github.com/chattama/"
+}
